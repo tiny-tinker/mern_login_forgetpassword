@@ -1,15 +1,15 @@
 {
   "app": {
-    "host": "0.0.0.0",
+    "host": "localhost",
     "port": 3000
   },
   "db": {
     "dialect": "mongodb",
-    "host": "ds113580.mlab.com",
-    "port": 13580,
-    "database": "heroku_3mcrml5p",
-    "username": "heroku_3mcrml5p",
-    "password": "muvehu8aeknne9atimol56vh53"
+    "host": "localhost",
+    "port": 27017,
+    "database": "Turbulence",
+    "username": "admin",
+    "password": "password"
   },
   "jwt": {
     "secret": "SOME AMAZING SECRET",
