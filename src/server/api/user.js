@@ -118,8 +118,10 @@ const User = {
       });
     }).then(({ email, isAuthorized, confirmAccountToken }) => {
       const options = {
+        service: 'gmail',
         auth: {
-          api_key: config.get('mailer:sendGrid:api_key'),
+          user: 'tybdevelopment@gmail.com',
+          pass: 'Elite1991!!'
         },
       };
       const client = nodemailer.createTransport(sgTransport(options));
@@ -164,8 +166,10 @@ const User = {
         });
       })).then((user) => {
         const options = {
+          service: 'gmail',
           auth: {
-            api_key: config.get('mailer:sendGrid:api_key'),
+            user: 'tybdevelopment@gmail.com',
+            pass: 'Elite1991!!'
           },
         };
         const client = nodemailer.createTransport(sgTransport(options));
@@ -222,8 +226,10 @@ const User = {
       });
     }).then((user) => {
       const options = {
+        service: 'gmail',
         auth: {
-          api_key: config.get('mailer:sendGrid:api_key'),
+          user: 'tybdevelopment@gmail.com',
+          pass: 'Elite1991!!'
         },
       };
       const client = nodemailer.createTransport(sgTransport(options));
