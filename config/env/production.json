@@ -1,0 +1,34 @@
+{
+  "app": {
+    "host": "0.0.0.0",
+    "port": 3000
+  },
+  "db": {
+    "dialect": "mongodb",
+    "host": "ds113580.mlab.com",
+    "port": 13580,
+    "database": "heroku_3mcrml5p",
+    "username": "heroku_3mcrml5p",
+    "password": "muvehu8aeknne9atimol56vh53"
+  },
+  "jwt": {
+    "secret": "SOME AMAZING SECRET",
+    "expires_seconds": 1400
+  },
+  "api": {
+    "BaseUrl": "/api/v1",
+    "UserEndpoint": "/user",
+    "AuthenticateUser": "/user/authenticate",
+    "ReAuthenticateUser": "/user/reauthenticate"
+  },
+  "mailer": {
+    "sendGrid": {
+      "api_key": "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"
+    },
+    "emailFrom": "noreply@turbulence.com",
+    "confirmAccountEmailSubject": "Confirm your account on Turbulence",
+    "resetPasswordEmailSubject": "Turbulence Password Reset",
+    "changePasswordEmailSubject": "Your password has been changed",
+    "tokenExpires": 3600000
+  }
+}

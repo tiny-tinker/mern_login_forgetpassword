@@ -1,0 +1,34 @@
+{
+  "app": {
+    "host": "localhost",
+    "port": 3000
+  },
+  "db": {
+    "dialect": "mongodb",
+    "host": "localhost",
+    "port": 27017,
+    "database": "Turbulence",
+    "username": "admin",
+    "password": "password"
+  },
+  "jwt": {
+    "secret": "SOME AMAZING SECRET",
+    "expires_seconds": 1400
+  },
+  "api": {
+    "BaseUrl": "/api/v1",
+    "UserEndpoint": "/user",
+    "AuthenticateUser": "/user/authenticate",
+    "ReAuthenticateUser": "/user/reauthenticate"
+  },
+  "mailer": {
+    "sendGrid": {
+      "api_key": "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"
+    },
+    "emailFrom": "noreply@turbulence.com",
+    "confirmAccountEmailSubject": "Confirm your account on Turbulence",
+    "resetPasswordEmailSubject": "Turbulence Password Reset",
+    "changePasswordEmailSubject": "Your password has been changed",
+    "tokenExpires": 3600000
+  }
+}
