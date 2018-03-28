@@ -124,7 +124,7 @@ const User = {
           pass: 'Elite1991!!'
         },
       };
-      const client = nodemailer.createTransport(sgTransport(options));
+      const client = nodemailer.createTransport(options);
       const emailObj = {
         from: config.get('mailer:emailFrom'),
         to: email,
@@ -172,7 +172,7 @@ const User = {
             pass: 'Elite1991!!'
           },
         };
-        const client = nodemailer.createTransport(sgTransport(options));
+        const client = nodemailer.createTransport(options);
         const email = {
           from: config.get('mailer:emailFrom'),
           to: user.email,
@@ -232,7 +232,7 @@ const User = {
           pass: 'Elite1991!!'
         },
       };
-      const client = nodemailer.createTransport(sgTransport(options));
+      const client = nodemailer.createTransport(options);
       const email = {
         from: config.get('mailer:emailFrom'),
         to: user.email,
