@@ -25,7 +25,7 @@
     "sendGrid": {
       "api_key": "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"
     },
-    "emailFrom": "noreply@turbulence.com",
+    "emailFrom": "tybdevelopment@gmail.com",
     "confirmAccountEmailSubject": "Confirm your account on Turbulence",
     "resetPasswordEmailSubject": "Turbulence Password Reset",
     "changePasswordEmailSubject": "Your password has been changed",
